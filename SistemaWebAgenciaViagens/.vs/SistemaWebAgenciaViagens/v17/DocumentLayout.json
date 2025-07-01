@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFInal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFInal.csproj|solutionrelative:projetofinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoFInal\\appsettings.json",
+              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\appsettings.json",
+              "RelativeToolTip": "ProjetoFInal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T22:28:06.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
