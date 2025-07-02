@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFInal.csproj": {}
+    "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFinal.csproj": {}
   },
   "projects": {
-    "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFInal.csproj": {
+    "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFInal.csproj",
-        "projectName": "ProjetoFInal",
-        "projectPath": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFInal.csproj",
+        "projectUniqueName": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFinal.csproj",
+        "projectName": "ProjetoFinal",
+        "projectPath": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\ProjetoFinal.csproj",
         "packagesPath": "C:\\Users\\Domingues\\.nuget\\packages\\",
         "outputPath": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFInal\\obj\\",
         "projectStyle": "PackageReference",
@@ -69,6 +69,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

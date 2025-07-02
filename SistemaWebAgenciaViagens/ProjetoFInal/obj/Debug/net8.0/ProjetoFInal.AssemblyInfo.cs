@@ -12,13 +12,13 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ProjetoFInal-a894b893-e404-473d-8f4f-f198a1f69466")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoFInal")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ProjetoFinal-a894b893-e404-473d-8f4f-f198a1f69466")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ProjetoFInal")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ProjetoFInal")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+615ccf265f84b5b9a54f6116866a370a8aa1ec61")]
+[assembly: System.Reflection.AssemblyProductAttribute("ProjetoFinal")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ProjetoFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

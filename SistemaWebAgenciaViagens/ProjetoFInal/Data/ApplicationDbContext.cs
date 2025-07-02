@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ProjetoFinal.Models;
 
-namespace ProjetoFInal.Data
+namespace ProjetoFinal.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -9,5 +10,7 @@ namespace ProjetoFInal.Data
             : base(options)
         {
         }
+        public DbSet<Local> Local { get; set; } = default!;
+        public DbSet<Reserva> Reserva { get; set; } = default!;
     }
 }
