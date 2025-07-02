@@ -1,52 +1,38 @@
-﻿@using ProjetoFinal.Models
-@model Reserva
+﻿@model ProjetoFinal.Models.Reserva
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Confirmar Reserva";
 }
 
-<h1>Create</h1>
-
-<h4>Reserva</h4>
+<h1>Confirmar sua Reserva</h1>
 <hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="DataInicio" class="control-label"></label>
-                <input asp-for="DataInicio" class="form-control" />
-                <span asp-validation-for="DataInicio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataFim" class="control-label"></label>
-                <input asp-for="DataFim" class="form-control" />
-                <span asp-validation-for="DataFim" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ValorTotal" class="control-label"></label>
-                <input asp-for="ValorTotal" class="form-control" />
-                <span asp-validation-for="ValorTotal" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="LocalId" class="control-label"></label>
-                <select asp-for="LocalId" class ="form-control" asp-items="ViewBag.LocalId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="UsuarioId" class="control-label"></label>
-                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <div class="col-md-8">
+        <h4>Detalhes do Local</h4>
+        <dl class="row">
+            <dt class="col-sm-3">Local</dt>
+            <dd class="col-sm-9">@Model.Local.Nome</dd>
+
+            <dt class="col-sm-3">Check-in</dt>
+            <dd class="col-sm-9">@Model.DataInicio.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Check-out</dt>
+            <dd class="col-sm-9">@Model.DataFim.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Noites</dt>
+            <dd class="col-sm-9">@((int)(Model.DataFim - Model.DataInicio).TotalDays)</dd>
+
+            <dt class="col-sm-3 text-success">Valor Total</dt>
+            <dd class="col-sm-9 text-success fw-bold">R$ @Model.ValorTotal.ToString("F2")</dd>
+        </dl>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+<form asp-action="CriarConfirmado" method="post">
+    <input type="hidden" asp-for="LocalId" />
+    <input type="hidden" asp-for="DataInicio" />
+    <input type="hidden" asp-for="DataFim" />
+    <input type="hidden" asp-for="ValorTotal" />
+    <button type="submit" class="btn btn-primary btn-lg">Confirmar e Pagar</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

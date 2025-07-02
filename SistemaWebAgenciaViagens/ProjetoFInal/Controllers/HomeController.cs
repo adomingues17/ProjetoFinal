@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProjetoFinal.Data;
-using ProjetoFInal.Models;
+using ProjetoFinal.Models;
 using System.Diagnostics;
 
-namespace ProjetoFInal.Controllers;
+namespace ProjetoFinal.Controllers;
 
 public class HomeController : Controller
 {

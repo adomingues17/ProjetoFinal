@@ -1,5 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagens_locais\3d83ee92-8ec7-4e61-bd73-770e7b020b8e.jpg
+wwwroot\imagens_locais\8fa826a3-dbca-44a3-bed8-1f7b80953ed5.png
+wwwroot\imagens_locais\placeholder.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -58,5 +61,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\imagens_locais\3d83ee92-8ec7-4e61-bd73-770e7b020b8e.jpg
-wwwroot\imagens_locais\placeholder.png

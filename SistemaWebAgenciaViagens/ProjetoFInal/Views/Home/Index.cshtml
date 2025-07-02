@@ -54,7 +54,7 @@
                     <div class="card-footer">
                         <p class="fw-bold">Valor para o período (@noites noites): R$ @((item.PrecoPorNoite * noites).ToString("F2"))</p>
 
-                        <a asp-controller="Reservas" asp-action="Criar"
+                        <a asp-controller="Reservas" asp-action="Create"
                            asp-route-localId="@item.IdLocal"
                            asp-route-dataInicio="@(dataInicio?.ToString("yyyy-MM-dd"))"
                            asp-route-dataFim="@(dataFim?.ToString("yyyy-MM-dd"))"
