@@ -12,8 +12,8 @@ using ProjetoFinal.Data;
 namespace ProjetoFinal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250702010031_createWebAgenciaV1")]
-    partial class createWebAgenciaV1
+    [Migration("20250703021443_createWebAgenciaDb")]
+    partial class createWebAgenciaDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

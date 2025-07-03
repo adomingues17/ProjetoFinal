@@ -8,7 +8,8 @@ using System.Security.Claims;
 
 namespace ProjetoFinal.Controllers;
 
-[Authorize]
+//[Authorize]
+[Authorize(Roles = "Admin")]
 public class ReservasController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -19,7 +20,7 @@ public class ReservasController : Controller
         _context = context;
         _userManager = userManager;
     }
-
+    
     public async Task<IActionResult> Create(int localId, DateTime dataInicio, DateTime dataFim)
     {
         var local = await _context.Local.FindAsync(localId);

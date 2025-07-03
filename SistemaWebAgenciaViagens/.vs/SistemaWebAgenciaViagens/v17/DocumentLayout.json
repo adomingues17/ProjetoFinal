@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\views\\reservas\\sucesso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\views\\reservas\\sucesso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Migrations\\20250703021635_updateWebAgenciaDbV2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjetoFinal\\Migrations\\20250703021635_updateWebAgenciaDbV2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\views\\reservas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\views\\reservas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\models\\local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\models\\local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|d:\\impacta\\aspnet\\zprojeto\\sistemawebagenciaviagens\\projetofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3337AB3A-6270-4610-A02A-05DB093E9241}|ProjetoFInal\\ProjetoFinal.csproj|solutionrelative:projetofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,92 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sucesso.cshtml",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Views\\Reservas\\Sucesso.cshtml",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Views\\Reservas\\Sucesso.cshtml",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Views\\Reservas\\Sucesso.cshtml",
-              "RelativeToolTip": "ProjetoFinal\\Views\\Reservas\\Sucesso.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T02:40:57.137Z",
+              "Title": "20250703021635_updateWebAgenciaDbV2.cs",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Migrations\\20250703021635_updateWebAgenciaDbV2.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal\\Migrations\\20250703021635_updateWebAgenciaDbV2.cs",
+              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Migrations\\20250703021635_updateWebAgenciaDbV2.cs",
+              "RelativeToolTip": "ProjetoFinal\\Migrations\\20250703021635_updateWebAgenciaDbV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T02:16:35.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ProjetoFinal\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwDgAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T02:38:30.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReservasController.cs",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Controllers\\ReservasController.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Controllers\\ReservasController.cs",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Controllers\\ReservasController.cs",
-              "RelativeToolTip": "ProjetoFinal\\Controllers\\ReservasController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADgvyMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:28:30.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Local.cs",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Models\\Local.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Models\\Local.cs",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Models\\Local.cs",
-              "RelativeToolTip": "ProjetoFinal\\Models\\Local.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:26:44.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Models\\Reserva.cs",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Models\\Reserva.cs",
-              "RelativeToolTip": "ProjetoFinal\\Models\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:26:25.683Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoFinal\\appsettings.json",
+              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\appsettings.json",
+              "RelativeToolTip": "ProjetoFinal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T02:10:03.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Views\\Reservas\\Create.cshtml",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Views\\Reservas\\Create.cshtml",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Views\\Reservas\\Create.cshtml",
-              "RelativeToolTip": "ProjetoFinal\\Views\\Reservas\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T02:18:32.454Z",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Data\\User.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal\\Data\\User.cs",
+              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Data\\User.cs",
+              "RelativeToolTip": "ProjetoFinal\\Data\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T02:07:34.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProjetoFinal\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal\\Program.cs",
+              "ToolTip": "D:\\impacta\\aspNet\\ZProjeto\\SistemaWebAgenciaViagens\\ProjetoFinal\\Program.cs",
+              "RelativeToolTip": "ProjetoFinal\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAD8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:14:14.171Z",
+              "WhenOpened": "2025-07-03T02:07:17.895Z",
               "EditorCaption": ""
             }
           ]

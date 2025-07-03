@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ProjetoFinal.Migrations
 {
     /// <inheritdoc />
-    public partial class createWebAgenciaV1 : Migration
+    public partial class createWebAgenciaDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
