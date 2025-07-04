@@ -16,6 +16,15 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index(DateTime? dataInicio, DateTime? dataFim, int pagina = 1, int tamPagina = 2)
     {
+        /*
+         *phind
+        // Mantém a página atual quando novos filtros são aplicados
+        if (dataInicio.HasValue || dataFim.HasValue)
+        {
+            pagina = 1; // Volta para a primeira página quando aplica novos filtros
+        }
+        */
+
         // Inicia a consulta por todos os locais
         var query = _context.Locals.AsQueryable();
 
