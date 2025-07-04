@@ -9,7 +9,7 @@ public class User
         var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
         var userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
-        string[] roleNames = { "Admin", "Colaborador" };
+        string[] roleNames = { "Admin", "Usuario" };
         foreach (var roleName in roleNames)
         {
             var roleExist = await roleManager.RoleExistsAsync(roleName);

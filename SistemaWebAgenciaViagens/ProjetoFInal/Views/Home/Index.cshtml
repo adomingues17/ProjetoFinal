@@ -1,8 +1,14 @@
 ﻿@model IEnumerable<ProjetoFinal.Models.Local>
 @{
+
     ViewData["Title"] = "Página Inicial";
     var dataInicio = ViewBag.DataInicio as DateTime?;
     var dataFim = ViewBag.DataFim as DateTime?;
+
+
+    int totalPaginas = (int)ViewBag.TotalPaginas;
+    int paginaAtual = (int)ViewBag.PaginaAtual;
+
     int noites = 0;
     if (dataInicio.HasValue && dataFim.HasValue)
     {
@@ -64,5 +70,14 @@
                 }
             </div>
         </div>
+    }
+</div>
+
+<div>
+    Página:
+    @for (int i = 1; i <= totalPaginas; i++)
+    {
+        <a asp-action="Index" asp-route-pagina="@i" class="@(i == paginaAtual ? "fw-bold" : "")">@i</a>
+        @(i < totalPaginas ? " | " : "")
     }
 </div>

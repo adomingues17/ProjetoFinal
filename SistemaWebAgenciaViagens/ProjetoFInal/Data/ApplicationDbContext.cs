@@ -10,7 +10,7 @@ namespace ProjetoFinal.Data
             : base(options)
         {
         }
-        public DbSet<Local> Local { get; set; } = default!;
-        public DbSet<Reserva> Reserva { get; set; } = default!;
+        public DbSet<Local> Locals { get; set; } = default!;
+        public DbSet<Reserva> Reservas { get; set; } = default!;
     }
 }

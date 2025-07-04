@@ -8,8 +8,7 @@ using System.Security.Claims;
 
 namespace ProjetoFinal.Controllers;
 
-//[Authorize]
-[Authorize(Roles = "Admin")]
+//[Authorize(Roles = "Usuario")]
 public class ReservasController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -23,7 +22,7 @@ public class ReservasController : Controller
     
     public async Task<IActionResult> Create(int localId, DateTime dataInicio, DateTime dataFim)
     {
-        var local = await _context.Local.FindAsync(localId);
+        var local = await _context.Locals.FindAsync(localId);
         if (local == null) return NotFound();
 
         var reserva = new Reserva
@@ -44,7 +43,7 @@ public class ReservasController : Controller
     public async Task<IActionResult> CriarConfirmado(Reserva reserva)
     {
         // Re-validação de segurança para garantir que o local ainda está disponível
-        var isDisponivel = !_context.Reserva.Any(r =>
+        var isDisponivel = !_context.Reservas.Any(r =>
             r.LocalId == reserva.LocalId &&
             r.DataInicio < reserva.DataFim &&
             r.DataFim > reserva.DataInicio);
@@ -58,7 +57,7 @@ public class ReservasController : Controller
         // Pega o ID do usuário logado
         reserva.UsuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-        _context.Reserva.Add(reserva);
+        _context.Reservas.Add(reserva);
         await _context.SaveChangesAsync();
 
         return RedirectToAction(nameof(Sucesso));
@@ -74,7 +73,7 @@ public class ReservasController : Controller
     // Documentação: Lista todas as reservas para o administrador.
     public async Task<IActionResult> Index()
     {
-        var reservas = await _context.Reserva
+        var reservas = await _context.Reservas
             .Include(r => r.Local) // Inclui dados do Local relacionado
             .Include(r => r.Usuario) // Inclui dados do Usuário relacionado
             .OrderByDescending(r => r.DataInicio)

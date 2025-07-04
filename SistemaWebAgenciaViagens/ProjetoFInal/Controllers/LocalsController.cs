@@ -6,7 +6,7 @@ using ProjetoFinal.Models;
 
 namespace ProjetoFinal.Controllers;
 
-[Authorize]
+[Authorize(Roles = "Admin")]
 public class LocalsController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -19,7 +19,7 @@ public class LocalsController : Controller
     // GET: Locals
     public async Task<IActionResult> Index()
     {
-        return View(await _context.Local.ToListAsync());
+        return View(await _context.Locals.ToListAsync());
     }
 
     // GET: Locals/Details/5
@@ -30,7 +30,7 @@ public class LocalsController : Controller
             return NotFound();
         }
 
-        var local = await _context.Local
+        var local = await _context.Locals
             .FirstOrDefaultAsync(m => m.IdLocal == id);
         if (local == null)
         {
@@ -92,7 +92,7 @@ public class LocalsController : Controller
             return NotFound();
         }
 
-        var local = await _context.Local.FindAsync(id);
+        var local = await _context.Locals.FindAsync(id);
         if (local == null)
         {
             return NotFound();
@@ -143,7 +143,7 @@ public class LocalsController : Controller
             return NotFound();
         }
 
-        var local = await _context.Local
+        var local = await _context.Locals
             .FirstOrDefaultAsync(m => m.IdLocal == id);
         if (local == null)
         {
@@ -158,10 +158,10 @@ public class LocalsController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        var local = await _context.Local.FindAsync(id);
+        var local = await _context.Locals.FindAsync(id);
         if (local != null)
         {
-            _context.Local.Remove(local);
+            _context.Locals.Remove(local);
         }
 
         await _context.SaveChangesAsync();
@@ -170,6 +170,6 @@ public class LocalsController : Controller
 
     private bool LocalExists(int id)
     {
-        return _context.Local.Any(e => e.IdLocal == id);
+        return _context.Locals.Any(e => e.IdLocal == id);
     }
 }

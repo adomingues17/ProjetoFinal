@@ -252,7 +252,7 @@ namespace ProjetoFinal.Migrations
 
                     b.HasKey("IdLocal");
 
-                    b.ToTable("Local");
+                    b.ToTable("Locals");
                 });
 
             modelBuilder.Entity("ProjetoFinal.Models.Reserva", b =>
@@ -285,7 +285,7 @@ namespace ProjetoFinal.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Reserva");
+                    b.ToTable("Reservas");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
