@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ProjetoFinal.Migrations
 {
     /// <inheritdoc />
-    public partial class createWebAgenciaDb : Migration
+    public partial class createAgenciaDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -51,7 +51,7 @@ namespace ProjetoFinal.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Local",
+                name: "Locals",
                 columns: table => new
                 {
                     IdLocal = table.Column<int>(type: "int", nullable: false)
@@ -64,7 +64,7 @@ namespace ProjetoFinal.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Local", x => x.IdLocal);
+                    table.PrimaryKey("PK_Locals", x => x.IdLocal);
                 });
 
             migrationBuilder.CreateTable(
@@ -174,7 +174,7 @@ namespace ProjetoFinal.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Reserva",
+                name: "Reservas",
                 columns: table => new
                 {
                     IdReserva = table.Column<int>(type: "int", nullable: false)
@@ -187,17 +187,17 @@ namespace ProjetoFinal.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Reserva", x => x.IdReserva);
+                    table.PrimaryKey("PK_Reservas", x => x.IdReserva);
                     table.ForeignKey(
-                        name: "FK_Reserva_AspNetUsers_UsuarioId",
+                        name: "FK_Reservas_AspNetUsers_UsuarioId",
                         column: x => x.UsuarioId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Reserva_Local_LocalId",
+                        name: "FK_Reservas_Locals_LocalId",
                         column: x => x.LocalId,
-                        principalTable: "Local",
+                        principalTable: "Locals",
                         principalColumn: "IdLocal",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -242,13 +242,13 @@ namespace ProjetoFinal.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reserva_LocalId",
-                table: "Reserva",
+                name: "IX_Reservas_LocalId",
+                table: "Reservas",
                 column: "LocalId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Reserva_UsuarioId",
-                table: "Reserva",
+                name: "IX_Reservas_UsuarioId",
+                table: "Reservas",
                 column: "UsuarioId");
         }
 
@@ -271,7 +271,7 @@ namespace ProjetoFinal.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Reserva");
+                name: "Reservas");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
@@ -280,7 +280,7 @@ namespace ProjetoFinal.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Local");
+                name: "Locals");
         }
     }
 }

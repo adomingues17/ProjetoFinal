@@ -5,7 +5,7 @@
 namespace ProjetoFinal.Migrations
 {
     /// <inheritdoc />
-    public partial class updateWebAgenciaDbV2 : Migration
+    public partial class updateAgenciaDbv2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

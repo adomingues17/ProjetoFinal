@@ -12,8 +12,8 @@ using ProjetoFinal.Data;
 namespace ProjetoFinal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250703231321_createWebAgenciaDb")]
-    partial class createWebAgenciaDb
+    [Migration("20250705213147_createAgenciaDb")]
+    partial class createAgenciaDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -255,7 +255,7 @@ namespace ProjetoFinal.Migrations
 
                     b.HasKey("IdLocal");
 
-                    b.ToTable("Local");
+                    b.ToTable("Locals");
                 });
 
             modelBuilder.Entity("ProjetoFinal.Models.Reserva", b =>
@@ -288,7 +288,7 @@ namespace ProjetoFinal.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Reserva");
+                    b.ToTable("Reservas");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

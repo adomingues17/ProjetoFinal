@@ -75,14 +75,17 @@
                 }
             </div>
         </div>
-    }
+    } 
+
+    <div class="">
+        Página:
+        @for (int i = 1; i <= totalPaginas; i++)
+        {
+            <a asp-action="Index" asp-route-pagina="@i" asp-route-dataInicio="@(dataInicio?.ToString("yyyy-MM-dd"))" asp-route-dataFim="@(dataFim?.ToString("yyyy-MM-dd"))" class="@(i == paginaAtual ? "fw-bold" : "")">@i</a>
+            @(i < totalPaginas ? " | " : "")
+        }
+    </div>
+
 </div>
 
-<div>
-    Página:
-    @for (int i = 1; i <= totalPaginas; i++)
-    {
-        <a asp-action="Index" asp-route-pagina="@i" asp-route-dataInicio="@(dataInicio?.ToString("yyyy-MM-dd"))" asp-route-dataFim="@(dataFim?.ToString("yyyy-MM-dd"))" class="@(i == paginaAtual ? "fw-bold" : "")">@i</a>
-        @(i < totalPaginas ? " | " : "")
-    }
-</div>
+

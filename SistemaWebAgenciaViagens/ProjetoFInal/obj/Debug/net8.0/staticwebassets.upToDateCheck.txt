@@ -1,9 +1,15 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagens_locais\2ce2d0ee-7c16-4c3e-bf91-e80166326008.jpg
+wwwroot\imagens_locais\61bed420-191a-4b2d-bcff-4944a40f9a2d.jpg
+wwwroot\imagens_locais\683c3007-78f5-4d5c-92fd-35aa7a396ce6.jpg
 wwwroot\imagens_locais\8fa826a3-dbca-44a3-bed8-1f7b80953ed5.png
 wwwroot\imagens_locais\97c7c4b2-8bea-4816-9066-820a702fd2b2.png
 wwwroot\imagens_locais\99ee8ac3-f053-4123-99d6-90a2cd00f6e2.jpg
+wwwroot\imagens_locais\c119ffcd-f18c-4b7a-a99d-5ebf3749519d.jpg
 wwwroot\imagens_locais\cf855657-bc84-49be-be6f-e07f8edaddee.jpg
+wwwroot\imagens_locais\d901998e-8eab-4c9a-b7e0-d8b91faff07a.jpg
+wwwroot\imagens_locais\dab56a43-2c81-41e9-a6a2-e619ffd7ddb0.jpg
 wwwroot\imagens_locais\pexels-aleksandra-s-282932122-29831367.jpg
 wwwroot\imagens_locais\pexels-aleksandra-s-282932122-29909084.jpg
 wwwroot\imagens_locais\pexels-ana-dolidze-70590853-21621577.jpg
@@ -77,7 +83,6 @@ wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
@@ -110,3 +115,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
